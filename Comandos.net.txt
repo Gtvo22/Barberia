@@ -1,0 +1,13 @@
+dotnet new sln -o Primero.App
+
+cd Primero.App
+
+dotnet new classlib -o Primero.App.Dominio
+
+dotnet new classlib -o Primero.App.Persistencia
+
+dotnet new webapi -o Primero.App.Servicios
+
+dotnet new console -o Primero.App.Consola
+
+dotnet new webapp -o Primero.App.FrontEnd
